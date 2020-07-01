@@ -15,10 +15,10 @@ While TIMER is displayed, long-pressing (LP) MODE button changes the display to 
 ## Timer and Resetting Timer to 00:00
 The Timer counts time in seconds and minutes starting from 0 seconds, up to 99 minutes and 59 seconds, after which it starts counting from 0 seconds again.
 During the time counting, the Timer alarm rings once when the displayed Time (mm:ss) matches the Timer Alarm setting.
-While the Timer (or Clock) is displayed, the Timer count can be reset to 00:00 by pressing the RESET button. This causes the Timer to re-start counting from 0 seconds.
+While the Timer (or Clock) is displayed, the Timer count can be reset to 00:00 by short-pressing (SP) the RESET button. This causes the Timer to re-start counting from 0 seconds.
 
 ## Timer-Alarm Setting
-While TIMER is displayed, MODE SP to change display to Timer-Alarm (Minutes and Seconds) with blinking Timer-Alarm Seconds. Now SET SP increments Timer-Alarm Seconds and SET LP decrements Timer Alarm Seconds.
+While TIMER is displayed, MODE SP (Short Press) to change display to Timer-Alarm (Minutes and Seconds) with blinking Timer-Alarm Seconds. Now SET SP increments Timer-Alarm Seconds and SET LP decrements Timer Alarm Seconds.
 MODE SP again blinks the Timer-Alarm Minutes display. Now SET SP increments Timer-Alarm Minutes and SET LP decrements Timer-Alarm Minutes.
 MODE SP again returns the display to TIMER.
 
@@ -26,16 +26,23 @@ MODE SP again returns the display to TIMER.
 The Timer-Alarm display can be set to 00:00 quickly by MODE LP during the blinking phase of Timer-Alarm Setting. This disables the Timer Alarm Ringing.
 
 ## Clock Setting
-While CLOCK is displayed, MODE can be single-pressed (SP) to blink the Minutes display. Now SET SP increments Minutes and SET long-press (LP) decrements Minutes.
+While CLOCK is displayed, MODE can be single-pressed (SP) to blink the Minutes display. Now SET SP increments Minutes and SET LP decrements Minutes.
 MODE SP again blinks the Hours display. Now SET SP increments Hours and SET LP decrements Hours.
 MODE SP again returns the display to CLOCK, with the changed time.
 
 ## Clock Alarm Setting
-While CLOCK is displayed, SET LP to display the CLOCK ALARM TIME. Now MODE SP to blink the Clock Alarm Minutes display. Now SET SP increments Clock Alarm Minutes and SET long-press (LP) decrements Clock Alarm Minutes.
+While CLOCK is displayed, SET LP to display the CLOCK ALARM TIME. Now MODE SP to blink the Clock Alarm Minutes display. Now SET SP increments Clock Alarm Minutes and SET LP decrements Clock Alarm Minutes.
 MODE SP again blinks the Clock Alarm Hours display. Now SET SP increments Clock Alarm Hours and SET LP decrements Hours.
 MODE MODE SP again returns the display to CLOCK ALARM TIME, with the changed Clock Alarm time.
 MODE LP to exit Clock Alarm Setting and go back to Clock display.
 
+
+# Schematic from KICAD
+![](/Schematic.png)
+
+
+# PCM Image from KiCAD
+![](/PCB.png)
 
 # Notes
 

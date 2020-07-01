@@ -1,11 +1,12 @@
 # TimerClock
-An Arduino + RTC (and optionally Wemos) - based Clock and TImer with Alarm
+An Arduino + RTC (and optionally Wemos) - based Clock and Timer with Alarm
 
 # About
-This project implements a Clock and Timer (time counter with alarm). It has 3 buttons - MODE, SET and RESET.
+This project implements a Digital Alarm-Clock and Timer (time counter, also with alarm). 
 
 
 # Button Operations
+This Clock-Timer has 3 buttons - MODE, SET and RESET. All functions are settings are done using these buttons. This is described below.
 
 ## Displaying TIMER and CLOCK
 When the ClockTimer is powered ON, it displays the CLOCK.
@@ -49,7 +50,7 @@ MODE LP to exit Clock Alarm Setting and go back to Clock display.
 * A **DS3231 RTC** is used to keep accurate time. 
 * The **DS 3231** may be removed and a **Wemos D1 Mini** with appropriate code may be used to push *Network Time* to the Arduino. This requires code changes to the Arduino as well. 
 * The Wemos-Arduino interfacing is via Serial Rx-Tx lines.
-* A6 and A7 of Arduino cannot be used as Digital IO pins. THey can be used as Analog inputs only. So these are not suitable for use as button pins with libraries like AceButton.
+* A6 and A7 of Arduino cannot be used as Digital IO pins. They can be used as Analog inputs only. So these are not suitable for use as button pins with libraries like AceButton.
 * A DF Player Mini is used to make the alarm sound.
 * D13, being a communication pin as well, has digital noise on it during boot. Hence this is not suitable as a trigger pin for the DF Player Mini. Specifically, the DF Player starts playing continuously on boot if D13 is used.
 * If the DF Player is triggered using Arduino pin D12 directly, there is a 'bep-bep-bep' kind of noise in the played back sound. This went away when a 15k resistor was used in this trigger line.

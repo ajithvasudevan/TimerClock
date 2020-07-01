@@ -52,7 +52,7 @@ MODE LP to exit Clock Alarm Setting and go back to Clock display.
 * The Wemos-Arduino interfacing is via Serial Rx-Tx lines.
 * A6 and A7 of Arduino cannot be used as Digital IO pins. They can be used as Analog inputs only. So these are not suitable for use as button pins with libraries like AceButton.
 * A DF Player Mini is used to make the alarm sound.
-* D13, being a communication pin as well, has digital noise on it during boot. Hence this is not suitable as a trigger pin for the DF Player Mini. Specifically, the DF Player starts playing continuously on boot if D13 is used.
+* Aruino's pin D13, being a communication pin as well, has digital noise on it during boot. Hence this is not suitable as a trigger pin for the DF Player Mini. Specifically, the DF Player starts playing continuously on boot if D13 is used.
 * If the DF Player is triggered using Arduino pin D12 directly, there is a 'bep-bep-bep' kind of noise in the played back sound. This went away when a 15k resistor was used in this trigger line.
 
 

@@ -6,7 +6,7 @@ This project implements a Digital Alarm-Clock and Timer (time counter, also with
 
 
 # Button Operations
-This Clock-Timer has 3 buttons - MODE, SET and RESET. All functions are settings are done using these buttons. This is described below.
+This Clock-Timer has 3 buttons - MODE, SET and RESET. All functions and settings are done using these buttons. This is described below.
 
 ## Displaying TIMER and CLOCK
 When the ClockTimer is powered ON, it displays the CLOCK.

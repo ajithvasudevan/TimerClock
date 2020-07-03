@@ -38,7 +38,7 @@ MODE MODE SP again returns the display to CLOCK ALARM TIME, with the changed Clo
 MODE LP to exit Clock Alarm Setting and go back to Clock display.
 
 
-# Schematic from KICAD
+# Schematic from KiCAD
 ![](/Schematic.png)
 
 
